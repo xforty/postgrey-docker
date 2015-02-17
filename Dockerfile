@@ -8,4 +8,4 @@ RUN sudo apt-get -qq update && \
 
 WORKDIR /
 
-CMD /usr/sbin/postgrey --inet=10023
+CMD /usr/sbin/postgrey --inet=0.0.0.0:10023
